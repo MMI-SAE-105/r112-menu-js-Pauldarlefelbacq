@@ -8,8 +8,10 @@ toggle.addEventListener("click", ()=>{
     if (isOpen) {
         nav.ariaHidden = "true";
         toggle.ariaExpanded = "false";
+        document.body.classList.remove("noscroll");
     } else {
         nav.ariaHidden = "false";
         toggle.ariaExpanded = "true";
+        document.body.classList.add("noscroll");
     }
 });
