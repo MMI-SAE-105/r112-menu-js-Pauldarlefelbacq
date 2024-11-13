@@ -15,7 +15,7 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
 }
 /* On se sert de Javascript pour gérer l'ouverture et la fermeture du menu avec l'attribut "aria-hidden" */
 .menu[aria-hidden="false"] {
-  ______________; /* Rend le menu visible */
+  opacity: 100; /* Rend le menu visible */
   ______________; /* Rend le menu complètement opaque */
 }
 
